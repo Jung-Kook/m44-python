@@ -63,9 +63,56 @@
 
 
 
+   ## 원격저장소 활용하기
+
+1. 원격저장소(remote repository) 등록하기
+
+   ```bash
+   $ git remote add origin ___경로___
+   ```
+
+   - 원격 저장소(`remote`)를 등록(`add`)한다. ``origin`` 이름으로 ``경로``를!'
+
+   - 최초에 한번만 등록하면 된다.
+
+   - 아래의 명령어로 현재 등록된 원격 저장소를 확인할 수 있다.
+
+    ```bash
+     $ git remote --v
+   origin  https://github.com/Jung-Kook/m44-python.git (fetch)
+   origin  https://github.com/Jung-Kook/m44-python.git (push)
    
+    ```
 
    
+
+2. 원격저장소에 올리기
+
+   ```bash
+   $ git push origin master
+   ```
+
+   - `git`! 올려줘(`push`) `origin`이라는 이름의 원격저장소에 `master`로!
+
+   
+
+3. 원격저장소로부터 가져오기( `pull` )
+
+   ```bash
+   $ git pull origin master
+   ```
+
+
+
+
+# 원격 저장소 복제(clone)하기
+
+```bash
+$ git clone ___경로___
+```
+
+- 다운 받기를 원하는 폴더에서 `git bash`를 열고 위의 명령어를 입력한다.
+- 경로는 `github`에서 우측에 있는 초록색 버튼을 누르면 나타난다.
 
 
 
